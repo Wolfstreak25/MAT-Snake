@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2974485582236348713}
   - component: {fileID: 7975659800485795984}
   - component: {fileID: 4585436111577826508}
-  m_Layer: 0
+  - component: {fileID: -1009917210872818816}
+  m_Layer: 3
   m_Name: RedBody
   m_TagString: RedBody
   m_Icon: {fileID: 0}
@@ -101,3 +102,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.25
+--- !u!208 &-1009917210872818816
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2314033969156315329}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.00001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5

@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class LobbyController : MonoBehaviour
 {
     public Button PlayButton;
-    //public GameObject LevelSelection;
     public Button QuitButton;
     private void Awake() 
     {
@@ -18,7 +17,6 @@ public class LobbyController : MonoBehaviour
     {
         SoundManager.Instance.Play(Sounds.ButtonClick);
         SceneManager.LoadScene(1);
-        //LevelSelection.SetActive(true);
     }
     private void QuitGame()
     {

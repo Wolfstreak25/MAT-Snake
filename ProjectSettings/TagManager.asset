@@ -12,6 +12,7 @@ TagManager:
   - GreenBody
   - WallX
   - WallY
+  - PowerUp
   layers:
   - Default
   - TransparentFX

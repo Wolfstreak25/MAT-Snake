@@ -33,36 +33,39 @@ public class Food : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         RandomizePosition();
+        var obj = other.gameObject.GetComponent<SnakeController>();
         if(gameObject.tag == "RedApple")
-            if(other.gameObject.GetComponent<SnakeController>() != null)
+        {
+            if(obj != null)
             {
-                //collected;
-                Debug.Log("The Green picked collectible ");
-                SnakeController snakeController = other.gameObject.GetComponent<SnakeController>();
-                snakeController.Grow();
+                if (obj.type == SnakeType.Green)
+                {
+                    Debug.Log("The Green picked collectible ");
+                    obj.Grow();
+                }
+                else
+                {
+                    Debug.Log("The Red picked collectible ");
+                    obj.Digest();
+                }
             }
-            else if(other.gameObject.GetComponent<RedSnakeController>() != null)
-            {
-                //collected;
-                Debug.Log("The Red picked collectible ");
-                RedSnakeController redsnakeController = other.gameObject.GetComponent<RedSnakeController>();
-                redsnakeController.Digest();
-            }
+        }
         if(gameObject.tag == "GreenApple")
-            if(other.gameObject.GetComponent<SnakeController>() != null)
+        {
+            if(obj != null)
             {
-                //collected;
-                Debug.Log("The Green picked collectible ");
-                SnakeController snakeController = other.gameObject.GetComponent<SnakeController>();
-                snakeController.Digest();
+                if (obj.type == SnakeType.Green)
+                {
+                    Debug.Log("The Green picked collectible ");
+                    obj.Digest();
+                }
+                else
+                {
+                    Debug.Log("The Red picked collectible ");
+                    obj.Grow();
+                }
             }
-            else if(other.gameObject.GetComponent<RedSnakeController>() != null)
-            {
-                //collected;
-                Debug.Log("The Red picked collectible ");
-                RedSnakeController redsnakeController = other.gameObject.GetComponent<RedSnakeController>();
-                redsnakeController.Grow();
-            }
+        }
     }
 }
 

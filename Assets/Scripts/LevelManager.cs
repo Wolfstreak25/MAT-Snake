@@ -21,6 +21,7 @@ public class LevelManager : MonoBehaviour
     {
         SoundManager.Instance.Play(Sounds.ButtonClick);
         GreenSnake.SetActive(true);
+        
         Canvas.SetActive(false);
     }
     private void PlayDuo()

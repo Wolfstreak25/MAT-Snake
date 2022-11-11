@@ -98,5 +98,6 @@ public enum Sounds
     Start,
     Complete,
     Music,
+    PoweredUP,
     ButtonClick
 }
