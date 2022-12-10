@@ -133,12 +133,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 429469387559168459}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39785f5e4289c7e4aba1b8c68d2c96b0, type: 3}
+  m_Script: {fileID: 11500000, guid: d9c6130faf66a154fbcac0f98bcc0006, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 1
   scoreManager: {fileID: 0}
   gameOverController: {fileID: 0}
-  segmentPrefab: {fileID: 2974485582236348713, guid: 409c425aad3a02341a1f5652ad8d128c, type: 3}
+  segmentPrefab: {fileID: 0}
   direction: {x: 1, y: 0}
   initialSize: 4
   Spawn: {fileID: 0}
+  type: 1
