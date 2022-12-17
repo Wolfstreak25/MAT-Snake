@@ -1,0 +1,1049 @@
+fileFormatVersion: 2
+guid: e2440e0b28cbd06418649a4b9fc4192b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 588
+        width: 81
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7b73967574c3b409a0ff36baab4eb3
+      internalID: 1972896349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 588
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c59d6c041b88a4fb2789c411066d99
+      internalID: 643660779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 588
+        width: 78
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da9d9616b2f05949b9c698cca36cc75
+      internalID: 1810647162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_3
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 588
+        width: 81
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ed1c54a09ea484bbae9e6df150d748
+      internalID: -2144633171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_4
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 573
+        width: 73
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dbb386685fe5547b01d30785cd62d7
+      internalID: -1745886291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_5
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 573
+        width: 69
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c22454a02c3ad647b12f689dd278e90
+      internalID: -1426459807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_6
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 573
+        width: 74
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5444e5d8278f5488975d3957a90dd0
+      internalID: 2033275658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_7
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 573
+        width: 67
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338d70fea98fcee47b98b143d55003a5
+      internalID: -1942427685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_8
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 573
+        width: 72
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17826142f622be4d8cebf35ad115419
+      internalID: -412684971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_9
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 50
+        width: 487
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcd20aab456acd40ba368c4b6034fd4
+      internalID: 585306501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 461
+        width: 80
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3068336a2e9fe11438a24b6b18cc0b7c
+      internalID: -1713441509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 461
+        width: 82
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c598c297916a14db40dca2a3531da4
+      internalID: 1270467424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_12
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 461
+        width: 86
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cd88278ab1e0c4a93eeb4a1b20c8f2
+      internalID: 1881334897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_13
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 452
+        width: 75
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bb8d3f55db6e347884102e7062bfa6
+      internalID: 1918297760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_14
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 452
+        width: 77
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9159bed8275ffc4288c4dd0694fcd08
+      internalID: 725209955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_15
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 452
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280ee9d9d0c1f2f4cb455b1cf52f3846
+      internalID: -1997299852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_16
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 452
+        width: 97
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baad04a296402ea468fb17151dd95884
+      internalID: -166702663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_17
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 452
+        width: 96
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f775c3090972b84db5bb44c925954b9
+      internalID: 591310102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_18
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 318
+        width: 77
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24a59a61854bb34c8c0bd61ca2e20ff
+      internalID: 334324818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_19
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 318
+        width: 77
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaa0c7d7d69ca4488f0dc3f5cbc16b9
+      internalID: -1047234535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_20
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 318
+        width: 74
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848b523cde30ca14383af99fb2ce345e
+      internalID: 1523284401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 318
+        width: 83
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594e5a5f2246e514f9da32af72f6d9ee
+      internalID: -664880433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 318
+        width: 69
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062b74730fefd6747a8e44cb8e7831e4
+      internalID: -525856925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_23
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 318
+        width: 79
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3556b6d55060747ac6299a2687124a
+      internalID: -1677627166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_24
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 318
+        width: 88
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849da37c8049b2a47bbdc3f99ada27f3
+      internalID: 1242643586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_25
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 318
+        width: 76
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3611b81282c53e409b98b05848f1a43
+      internalID: 178543613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_26
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 318
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b964340cfee8c624d9058405a9eceed5
+      internalID: -1271613549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 163
+        width: 76
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6594efaaf05c8a418fe4474da11c6cd
+      internalID: 1323547892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_28
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 163
+        width: 76
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b55a97d7fcc2b4eb21b8493567578c
+      internalID: 1858022851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_29
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 163
+        width: 81
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dbe84038f4abf4593ce1fcb90d06cb
+      internalID: 1393326961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_30
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 163
+        width: 87
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d91ba1dda7810e41b6b93c93a52eaf4
+      internalID: -1773505011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_31
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 163
+        width: 81
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5767ac1eb87290b47bf48ffa38e1f310
+      internalID: -1859276478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_32
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 163
+        width: 76
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b2b01669eb1c643a46d34e2cb7041e
+      internalID: -1183031587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_33
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 163
+        width: 76
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbb6e933fc16874391fc41157bb2b2d
+      internalID: -1320346758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_34
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 72
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1edff149744fcc4ca3fd4f4f479439f
+      internalID: -754100109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_35
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 24
+        width: 71
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2872f839745893449b3d0a4a59cb2d0
+      internalID: 989136974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_36
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 24
+        width: 69
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac54c8da51ae604ba735c2a4b931936
+      internalID: 1210807740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_37
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 24
+        width: 68
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8202b18c6781dc64aace6a9f76085c67
+      internalID: -605792965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_38
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 24
+        width: 68
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99565bf17f32e745994017afaee9a48
+      internalID: -699830026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_39
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 24
+        width: 71
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ae761fa1d96fa4f879ea7d4817cf85
+      internalID: 286459560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight-game-sprites_22191-91_40
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 24
+        width: 72
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fd318374584b54eb3d8926bcdc23b8
+      internalID: 315508169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      knight-game-sprites_22191-91_8: -412684971
+      knight-game-sprites_22191-91_33: -1320346758
+      knight-game-sprites_22191-91_21: -664880433
+      knight-game-sprites_22191-91_31: -1859276478
+      knight-game-sprites_22191-91_19: -1047234535
+      knight-game-sprites_22191-91_2: 1810647162
+      knight-game-sprites_22191-91_4: -1745886291
+      knight-game-sprites_22191-91_17: 591310102
+      knight-game-sprites_22191-91_36: 1210807740
+      knight-game-sprites_22191-91_27: 1323547892
+      knight-game-sprites_22191-91_14: 725209955
+      knight-game-sprites_22191-91_3: -2144633171
+      knight-game-sprites_22191-91_18: 334324818
+      knight-game-sprites_22191-91_16: -166702663
+      knight-game-sprites_22191-91_30: -1773505011
+      knight-game-sprites_22191-91_22: -525856925
+      knight-game-sprites_22191-91_10: -1713441509
+      knight-game-sprites_22191-91_6: 2033275658
+      knight-game-sprites_22191-91_35: 989136974
+      knight-game-sprites_22191-91_7: -1942427685
+      knight-game-sprites_22191-91_20: 1523284401
+      knight-game-sprites_22191-91_26: -1271613549
+      knight-game-sprites_22191-91_24: 1242643586
+      knight-game-sprites_22191-91_37: -605792965
+      knight-game-sprites_22191-91_29: 1393326961
+      knight-game-sprites_22191-91_38: -699830026
+      knight-game-sprites_22191-91_39: 286459560
+      knight-game-sprites_22191-91_28: 1858022851
+      knight-game-sprites_22191-91_12: 1881334897
+      knight-game-sprites_22191-91_15: -1997299852
+      knight-game-sprites_22191-91_13: 1918297760
+      knight-game-sprites_22191-91_25: 178543613
+      knight-game-sprites_22191-91_0: 1972896349
+      knight-game-sprites_22191-91_32: -1183031587
+      knight-game-sprites_22191-91_23: -1677627166
+      knight-game-sprites_22191-91_40: 315508169
+      knight-game-sprites_22191-91_11: 1270467424
+      knight-game-sprites_22191-91_34: -754100109
+      knight-game-sprites_22191-91_9: 585306501
+      knight-game-sprites_22191-91_1: 643660779
+      knight-game-sprites_22191-91_5: -1426459807
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
