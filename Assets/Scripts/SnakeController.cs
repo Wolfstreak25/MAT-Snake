@@ -96,9 +96,9 @@ public class SnakeController : MonoBehaviour
     private void FixedUpdate() 
     {
         // Set the new direction based on the input
-        if (input != Vector2.zero) {
-            direction = input;
-        }
+        //if (input != Vector2.zero) {
+        //    direction = input;
+        //}
 
         // Set each segment's position to be the same as the one it follows. We
         // must do this in reverse order so the position is set to the previous
