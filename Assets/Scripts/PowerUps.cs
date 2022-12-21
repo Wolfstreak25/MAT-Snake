@@ -9,57 +9,49 @@ public enum PowerType
     FoodBuff,
     Count
 }
-
 public class PowerUps : MonoBehaviour
 {
-    public List<PowerUpBase> Powerups = new List<PowerUpBase>();
-    public Collider2D gridArea;
-    public PowerType currentType = PowerType.Speed;
-
+    [SerializeField] private int GridHeight = 18;
+    [SerializeField] private int GridWidth = 34;
+    public List<Sprite> Powerups = new List<Sprite>();
+    public PowerType powerType;
+    private SpriteRenderer changeSprite;
     private void Start()
     {
-        Invoke("RandomizeObject", 10f);
-        Debug.Log(Powerups[0].type == PowerType.Speed);
+        changeSprite = this.GetComponent<SpriteRenderer>(); 
+        //Invoke("RandomizeObject", 10f);
+        RandomizeObject();
+        //Debug.Log(Powerups[0].powerType == PowerType.Speed);
     }
 
     public void RandomizeObject()
     {
-        int type = Random.Range(0, (int)PowerType.Count);// % (int)PowerType.Count;
-        var power = Powerups[0];
-        currentType = (PowerType)type;
-        for (int i = 0; i < Powerups.Count; i++)
-        {
-            Powerups[i].gameObject.SetActive(false);
-            if (Powerups[i].type == (PowerType)type)
-            {
-                Powerups[i].gameObject.SetActive(true);
-                power = Powerups[i];
-            };
-        }
-        power.transform.position = RandomizePosition();
+        //Random power type
+        int type = Random.Range(0, (int)PowerType.Count);
+        powerType = (PowerType)type;
+        changeSprite.sprite = Powerups[(int)powerType];
+        enableThis();
+        //Random Position
+        this.transform.position = RandomizePosition();
     }
     public Vector2 RandomizePosition()
     {
-        Bounds bounds = gridArea.bounds;
-        // Pick a random position inside the bounds
-        float x = Random.Range(bounds.min.x, bounds.max.x);
-        float y = Random.Range(bounds.min.y, bounds.max.y);
-        // Round the values to ensure it aligns with the grid
-        x = Mathf.Round(x);
-        y = Mathf.Round(y);
-        return new Vector2(x, y);
+        return new Vector2(Mathf.Round(Random.Range(0, GridWidth)), Mathf.Round(Random.Range(0, GridHeight)));
     }
-
     private void OnTriggerEnter2D(Collider2D other)
-    {
-        Debug.Log("collided");
-        Invoke("RandomizeObject", 30f);
-        var obj = other.gameObject.GetComponent<SnakeController>();
-            if(obj != null)
+    {        
+        Debug.Log(other.name);
+            if(other.TryGetComponent<SnakeController>(out var obj))
             {
-                Debug.Log("Picked up");
-                obj.Grow();
-                    obj.Power(currentType);
+                Debug.Log("Collision Power Up");
+                obj.PowerUp(powerType);
             }
+        //Invoke("disableThis", 10f);
+        disableThis();
+        
     }
+    private void OnEnable() {Invoke("disableThis", 10f);}
+    private void OnDisable() {Invoke("RandomizeObject", 10f);}
+    private void disableThis(){this.gameObject.SetActive(false);}
+    private void enableThis(){this.gameObject.SetActive(true);}
 }

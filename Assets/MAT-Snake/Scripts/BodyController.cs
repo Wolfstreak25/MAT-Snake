@@ -14,7 +14,7 @@ public class BodyController : MonoBehaviour
     public void SpawnBody()
     {
         Debug.Log("SpawnBody Called");
-        BodyPosition = new Vector3(Random.Range(-GridWidth, GridWidth), Random.Range(-GridHeight, GridHeight) , 0);
+        BodyPosition = new Vector3(Mathf.Round(Random.Range(-GridWidth, GridWidth)), Mathf.Round(Random.Range(-GridHeight, GridHeight)) , 0);
         this.transform.position = BodyPosition;
         SpawnAgain();
     }

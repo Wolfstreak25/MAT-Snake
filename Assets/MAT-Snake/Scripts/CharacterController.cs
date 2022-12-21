@@ -12,7 +12,7 @@ public class CharacterController : MonoBehaviour
 {
     public PlayerType playerType;
     Animator PlayerAnimator;
-    [SerializeField] private float MovementSpeed = 1.0f;
+    //[SerializeField] private float MovementSpeed = 1.0f;
     public PlayerBodyController PlayerBody;
     private Vector2 PlayerPosition;
     private Vector2 PlayerDirection;
@@ -23,10 +23,6 @@ public class CharacterController : MonoBehaviour
         PlayerPosition = new Vector2(5,10);
         PlayerDirection = new Vector2(0,-1);
         PlayerAnimator = GetComponent<Animator>();
-        Debug.Log(Vector2.up);
-        Debug.Log(Vector2.down);
-        Debug.Log(Vector2.right);
-        Debug.Log(Vector2.left);
         BodySegments.Add(gameObject.GetComponent<PlayerBodyController>());
         MovetimerMax = 0.5f;
         Movetimer = MovetimerMax;

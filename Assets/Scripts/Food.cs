@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Food : MonoBehaviour
 {
-    public Collider2D gridArea;
+    [SerializeField] private int GridHeight;
+    [SerializeField] private int GridWidth;
+    public SnakeType snakeType;
 
     private void Start()
     {
@@ -13,59 +15,31 @@ public class Food : MonoBehaviour
 
     public void RandomizePosition()
     {
-        Bounds bounds = gridArea.bounds;
-
-        // Pick a random position inside the bounds
-        float x = Random.Range(bounds.min.x, bounds.max.x);
-        float y = Random.Range(bounds.min.y, bounds.max.y);
-
-        // Round the values to ensure it aligns with the grid
-        x = Mathf.Round(x);
-        y = Mathf.Round(y);
-
-        transform.position = new Vector2(x, y);
-        if(gameObject.tag == "RedApple")
-            SoundManager.Instance.Play(Sounds.SpawnRedFod);
-        if(gameObject.tag == "GreenApple")
-            SoundManager.Instance.Play(Sounds.SpawnGreenFood);
+        this.transform.position = new Vector3(Mathf.Round(Random.Range(0, GridWidth)), Mathf.Round(Random.Range(0, GridHeight)) , 0);
+        //SoundManager.Instance.Play(Sounds.SpawnRedFod);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        RandomizePosition();
+        Debug.Log(other.name);
         var obj = other.gameObject.GetComponent<SnakeController>();
-        if(gameObject.tag == "RedApple")
-        {
             if(obj != null)
             {
-                if (obj.type == SnakeType.Green)
+                Debug.Log("Collission occured");
+                if(this.snakeType == obj.snakeType)
                 {
-                    Debug.Log("The Green picked collectible ");
+                    Debug.Log("Segment Gathered");
                     obj.Grow();
                 }
                 else
                 {
-                    Debug.Log("The Red picked collectible ");
-                    obj.Digest();
+                    Debug.Log("Segment Lost");
+                    obj.Digest ();
                 }
+                RandomizePosition();
+                Debug.Log("Collision");
             }
-        }
-        if(gameObject.tag == "GreenApple")
-        {
-            if(obj != null)
-            {
-                if (obj.type == SnakeType.Green)
-                {
-                    Debug.Log("The Green picked collectible ");
-                    obj.Digest();
-                }
-                else
-                {
-                    Debug.Log("The Red picked collectible ");
-                    obj.Grow();
-                }
-            }
-        }
     }
 }
+
 
